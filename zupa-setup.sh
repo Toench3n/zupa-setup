@@ -33,6 +33,8 @@ PACKAGES=(
     docker
     docker-compose
     postgresql@14
+    solana
+    stats
 )
 brew install ${PACKAGES[@]}
 
@@ -59,6 +61,12 @@ CASKS=(
     todoist
     discord
     arc
+    cron
+    linear-linear
+    xmind
+    obsidian
+    tempbox
+    dropzone
 )
 brew install --cask ${CASKS[@]}
 
