@@ -69,6 +69,7 @@ CASKS=(
     tempbox
     dropzone
     bitwarden
+    protonvpn
 )
 brew install --cask ${CASKS[@]}
 
