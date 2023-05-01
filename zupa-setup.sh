@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Okay, lets go!"
 
-# we will use homebrew to install packages
+# check if brew is installed
 echo "I'm just looking for brew..."
 if test ! $(which brew); then
     # install homwbrew if not found
@@ -15,7 +15,7 @@ brew update
 
 # Formulae
 echo "Alright, we are all set! Starting to install formulae..."
-PACKAGES=(
+FORMULAE=(
     python
     java
     openjdk
@@ -37,7 +37,7 @@ PACKAGES=(
     solana
     stats
 )
-brew install ${PACKAGES[@]}
+brew install ${FORMULAE[@]}
 
 # Casks
 echo "Formulae are installed, proceeding with casks..."
@@ -68,6 +68,7 @@ CASKS=(
     obsidian
     tempbox
     dropzone
+    bitwarden
 )
 brew install --cask ${CASKS[@]}
 
