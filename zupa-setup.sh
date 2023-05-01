@@ -19,6 +19,7 @@ PACKAGES=(
     python
     java
     openjdk
+    gradle
     r
     rust
     sqlite
