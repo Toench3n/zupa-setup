@@ -31,7 +31,6 @@ FORMULAE=(
     git-lfs
     node
     deno
-    docker
     docker-compose
     postgresql@14
     solana
@@ -70,6 +69,7 @@ CASKS=(
     dropzone
     bitwarden
     protonvpn
+    zoom
 )
 brew install --cask ${CASKS[@]}
 
