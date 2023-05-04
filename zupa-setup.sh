@@ -70,6 +70,7 @@ CASKS=(
     bitwarden
     protonvpn
     zoom
+    alt-tab
 )
 brew install --cask ${CASKS[@]}
 
