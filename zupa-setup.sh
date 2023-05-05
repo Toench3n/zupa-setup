@@ -42,7 +42,7 @@ brew install ${FORMULAE[@]}
 echo "Formulae are installed, proceeding with casks..."
 CASKS=(
     firefox
-    anaconda
+    miniconda
     docker
     insomnia
     iterm2
