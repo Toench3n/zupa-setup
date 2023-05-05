@@ -71,6 +71,7 @@ CASKS=(
     protonvpn
     zoom
     alt-tab
+    clickup
 )
 brew install --cask ${CASKS[@]}
 
