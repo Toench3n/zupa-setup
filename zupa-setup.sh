@@ -35,6 +35,7 @@ FORMULAE=(
     postgresql@14
     solana
     stats
+    go-task
 )
 brew install ${FORMULAE[@]}
 
