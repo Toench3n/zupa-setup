@@ -36,6 +36,7 @@ FORMULAE=(
     solana
     stats
     go-task
+    poetry
 )
 brew install ${FORMULAE[@]}
 
@@ -73,6 +74,8 @@ CASKS=(
     zoom
     alt-tab
     clickup
+    logitune
+    grammarly-desktop
 )
 brew install --cask ${CASKS[@]}
 
